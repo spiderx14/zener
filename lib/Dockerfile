@@ -1,4 +1,4 @@
-FROM quay.io/gascomit/zener-ai:latest
+FROM quay.io/gascomit/zener:latest
 
 RUN git clone https://github.com/gascomit/zener /root/zener
 WORKDIR /root/zener/
