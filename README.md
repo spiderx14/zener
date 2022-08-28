@@ -8,7 +8,7 @@
 
 - You will need a [» Heroku «](id.heroku.com) account to deploy the bot.
 
-<a href="https://hermit-web.herokuapp.com/deployment"><img href="media/Zener.jpg" alt="Deploy To Heroku" width="200" height="55" border="0"></a>
+<a href="https://hermit-web.herokuapp.com/deployment"><img src="/media/Zener.jpg" alt="Deploy To Heroku" width="200" height="55" border="0"></a>
 
 ###### more features are coming soon...
 
