@@ -1,8 +1,8 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "English",
-    "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "LANGUAGE": "Spanish",
+    "LANGCODE": "es",
+    "AUTHOR": "GasComIT",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Command",
