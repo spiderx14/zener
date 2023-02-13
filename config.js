@@ -21,10 +21,10 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-    BOT_NAME: process.env.BOT_NAME || 'ZENER AI',
-    BOT_INFO: process.env.BOT_INFO || '𝛫𝑅𝛥𝛫𝛪𝛮𝛧;𝛫𝛩𝛮;254718241545;https://i.imgur.com/6oRG106.jpeg',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝛫𝑅𝛥𝛫𝛪𝛮𝛧;𝛫𝛩𝛮;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝛫𝑅𝛥𝛫𝛪𝛮𝛧;𝛫𝛩𝛮' : process.env.AUDIO_DATA,
+    BOT_NAME: process.env.BOT_NAME || 'SPIKE',
+    BOT_INFO: process.env.BOT_INFO || '𝐒𝐏𝐈𝐊𝐄;𝐃𝐎𝐍;254711107992;https://i.imgur.com/Ph0eqWd.jpeg',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝐒𝐏𝐈𝐊𝐄;𝐃𝐎𝐍;https://i.imgur.com/Ph0eqWd.jpeg' : process.env.AUDIO_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝐒𝐏𝐈𝐊𝐄;𝐃𝐎𝐍' : process.env.AUDIO_DATA,
     ERROR_MESSAGE: convertToBool(process.env.ERROR_MESSAGE) || true, 
     WARN: process.env.WARN || '4',
     HEROKU: {
@@ -37,7 +37,7 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-       SUDO: process.env.SUDO || '254718241545,0,254103407381',
+       SUDO: process.env.SUDO || '254711107992',
        DEBUG: DEBUG
 };
 
