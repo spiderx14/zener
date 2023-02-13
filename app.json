@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/krakinz/zener",
+  "repository": "https://github.com/spiderx14/zener",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -52,7 +52,7 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ZENER-AI;KRAKINZ;254718241545;https://i.imgur.com/6oRG106.jpeg"
+      "value": "SPIKE-AI;DON;254711107992;https://i.imgur.com/Ph0eqWd.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
@@ -62,7 +62,7 @@
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": false,
-      "value": "Krakinz;Lab;https://i.imgur.com/fj2WE83.jpeg"
+      "value": "code;Lab;https://i.imgur.com/Ph0eqWd.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
